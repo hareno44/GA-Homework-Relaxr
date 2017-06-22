@@ -1,0 +1,228 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  /*position: center;
+  background-color: #eeeeee;
+  display: flex;*/
+
+}
+
+#benefits{
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  position: center;
+  background-color: #eeeeee;
+  position: block;
+  z-index: 9;
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: calc(100vh);
+  margin: 0 0 px 0;
+}
+
+header h1{
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 800;
+  padding: 50px 80px;
+}
+
+header h2{
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
+}
+
+.button{
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background: #f9e42e;
+  color: #033048;
+  text-decoration: none;
+}
+
+#benefits{
+  padding: 100px 0 80px;
+  background: #f0efef;
+}
+section{
+  padding: 100px 0 80px;
+  background: #f0efef;
+}
+
+section h3{
+  color: #033048;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600px;
+  margin-bottom: 40px;
+  padding: 0 50px;
+}
+
+section p{
+  width: 600px;
+  padding: 0 50px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #033048;
+}
+
+section ul{
+  padding: 0 50px;
+  list-style: disc;
+  margin: 30px 0 0 80px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #033048;
+}
+
+#testimonial{
+  padding: 70px 0 70px;
+  color: #fff;
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  background-size: cover;
+}
+
+blockquote{
+  font-size: 36px;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  text-align; center;
+  width: 580px;
+  margin: 0 auto;
+}
+span{
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  font-size: 36px;
+}
+aside{
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+aside a{
+  background: #033048;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background: #f9e42e;
+  color: #033048;
+  text-decoration: none;
+
+}
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer h4{
+  color: #f9e42e;
+  margin-bottom: 70px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+footer ul li{
+  display: inline;
+  list-style: none;
+  margin-auto; 0 26px 75px;
+  padding: 30px;
+  text-align: center;
+
+}
+
+footer p{
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  padding-top: 50px;
+  text-align: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
